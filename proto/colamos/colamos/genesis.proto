@@ -1,0 +1,12 @@
+syntax = "proto3";
+package colamos.colamos;
+
+import "gogoproto/gogo.proto";
+import "colamos/colamos/params.proto";
+
+option go_package = "colamos/x/colamos/types";
+
+// GenesisState defines the colamos module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+}
