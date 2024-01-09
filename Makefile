@@ -13,7 +13,7 @@ build:
 BINS+=colamosd
 
 install:build
-	cp -f colamosd ${GOPATH}/bin
+	cp -f colamosd ${GOPATH}/bin && colamosd version
 
 init:
 	ignite chain init --skip-proto -y

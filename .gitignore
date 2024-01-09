@@ -6,3 +6,5 @@ release/
 .DS_Store
 /cmd/colamosd/colamosd
 /colamosd
+/go.work
+/go.work.sum
