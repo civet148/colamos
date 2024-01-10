@@ -1,9 +1,9 @@
 package ante_test
 
 import (
-	"github.com/evmos/evmos/v15/encoding"
-	"github.com/evmos/evmos/v15/types"
 	ethante "github.com/civet148/colamos/app/ante/evm"
+	"github.com/evmos/evmos/v16/encoding"
+	"github.com/evmos/evmos/v16/types"
 
 	"github.com/civet148/colamos/app"
 	"github.com/civet148/colamos/app/ante"

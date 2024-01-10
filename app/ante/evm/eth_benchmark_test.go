@@ -6,14 +6,14 @@ import (
 	"testing"
 
 	sdkmath "cosmossdk.io/math"
+	ethante "github.com/civet148/colamos/app/ante/evm"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
-	"github.com/evmos/evmos/v15/server/config"
-	"github.com/evmos/evmos/v15/testutil"
-	testutiltx "github.com/evmos/evmos/v15/testutil/tx"
-	"github.com/evmos/evmos/v15/x/evm/statedb"
-	evmtypes "github.com/evmos/evmos/v15/x/evm/types"
-	ethante "github.com/civet148/colamos/app/ante/evm"
+	"github.com/evmos/evmos/v16/server/config"
+	"github.com/evmos/evmos/v16/testutil"
+	testutiltx "github.com/evmos/evmos/v16/testutil/tx"
+	"github.com/evmos/evmos/v16/x/evm/statedb"
+	evmtypes "github.com/evmos/evmos/v16/x/evm/types"
 )
 
 func BenchmarkEthGasConsumeDecorator(b *testing.B) {

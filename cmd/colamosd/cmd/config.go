@@ -1,12 +1,12 @@
 package cmd
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-
 	"github.com/civet148/colamos/app"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 func initSDKConfig() {
+
 	// Set prefixes
 	accountPubKeyPrefix := app.AccountAddressPrefix + "pub"
 	validatorAddressPrefix := app.AccountAddressPrefix + "valoper"

@@ -39,14 +39,14 @@ import (
 	// this line is used by starport scaffolding # root/moduleImport
 
 	"cosmossdk.io/simapp/params"
-	evmosclient "github.com/evmos/evmos/v15/client"
-	"github.com/evmos/evmos/v15/client/debug"
-	cmdcfg "github.com/evmos/evmos/v15/cmd/config"
-	evmoskr "github.com/evmos/evmos/v15/crypto/keyring"
-	"github.com/evmos/evmos/v15/encoding"
-	"github.com/evmos/evmos/v15/ethereum/eip712"
-	evmosserver "github.com/evmos/evmos/v15/server"
-	servercfg "github.com/evmos/evmos/v15/server/config"
+	evmosclient "github.com/evmos/evmos/v16/client"
+	"github.com/evmos/evmos/v16/client/debug"
+	cmdcfg "github.com/evmos/evmos/v16/cmd/config"
+	evmoskr "github.com/evmos/evmos/v16/crypto/keyring"
+	"github.com/evmos/evmos/v16/encoding"
+	"github.com/evmos/evmos/v16/ethereum/eip712"
+	evmosserver "github.com/evmos/evmos/v16/server"
+	servercfg "github.com/evmos/evmos/v16/server/config"
 )
 
 const (
@@ -263,6 +263,7 @@ func (a appCreator) newApp(
 	traceStore io.Writer,
 	appOpts servertypes.AppOptions,
 ) servertypes.Application {
+
 	var cache sdk.MultiStorePersistentCache
 
 	if cast.ToBool(appOpts.Get(server.FlagInterBlockCache)) {

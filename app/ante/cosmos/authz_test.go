@@ -18,9 +18,9 @@ import (
 
 	cosmosante "github.com/civet148/colamos/app/ante/cosmos"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
-	testutil "github.com/evmos/evmos/v15/testutil"
-	utiltx "github.com/evmos/evmos/v15/testutil/tx"
-	evmtypes "github.com/evmos/evmos/v15/x/evm/types"
+	testutil "github.com/evmos/evmos/v16/testutil"
+	utiltx "github.com/evmos/evmos/v16/testutil/tx"
+	evmtypes "github.com/evmos/evmos/v16/x/evm/types"
 )
 
 func TestAuthzLimiterDecorator(t *testing.T) {
