@@ -53,8 +53,13 @@ const (
 	EnvPrefix = "COLAMOS"
 )
 
+func init() {
+	initSDKConfig()
+}
+
 // NewRootCmd creates a new root command for a Cosmos SDK application
 func NewRootCmd() (*cobra.Command, params.EncodingConfig) {
+
 	encodingConfig := encoding.MakeConfig(app.ModuleBasics)
 	initClientCtx := client.Context{}.
 		WithCodec(encodingConfig.Codec).

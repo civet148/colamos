@@ -44,7 +44,7 @@ validators:
          prometheus: true
          prometheus_listen_addr: ":26660"
 genesis:
-  chain_id: "colamos_9001-1"
+  chain_id: "colamos_9000-1"
   initial_height: "1"
   genesis_time: "2023-11-09T07:46:56.293077949Z"
   consensus_params:
