@@ -3,6 +3,7 @@ package app
 import (
 	"encoding/json"
 	ibcfeekeeper "github.com/cosmos/ibc-go/v7/modules/apps/29-fee/keeper"
+	ibctransfer "github.com/cosmos/ibc-go/v7/modules/apps/transfer"
 	"io"
 	"os"
 	"path/filepath"
@@ -12,9 +13,9 @@ import (
 	porttypes "github.com/cosmos/ibc-go/v7/modules/core/05-port/types"
 	"github.com/evmos/evmos/v15/x/claims"
 
-	"github.com/civet148/colamos/app/ante"
 	autocliv1 "cosmossdk.io/api/cosmos/autocli/v1"
 	reflectionv1 "cosmossdk.io/api/cosmos/reflection/v1"
+	"github.com/civet148/colamos/app/ante"
 	dbm "github.com/cometbft/cometbft-db"
 	abci "github.com/cometbft/cometbft/abci/types"
 	"github.com/cometbft/cometbft/libs/log"
@@ -191,7 +192,7 @@ var (
 		solomachine.AppModuleBasic{},
 		upgrade.AppModuleBasic{},
 		evidence.AppModuleBasic{},
-		transfer.AppModuleBasic{},
+		transfer.AppModuleBasic{AppModuleBasic: &ibctransfer.AppModuleBasic{}},
 		ica.AppModuleBasic{},
 		ibcfee.AppModuleBasic{},
 		vesting.AppModuleBasic{},
@@ -615,7 +616,7 @@ func New(
 
 	app.GovKeeper = *govKeeper.SetHooks(
 		govtypes.NewMultiGovHooks(
-			// register the governance hooks
+		// register the governance hooks
 		),
 	)
 

@@ -2,7 +2,7 @@ syntax = "proto3";
 package colamos.colamos;
 
 import "gogoproto/gogo.proto";
-import "github.com/civet148/colamos/colamos/params.proto";
+import "colamos/colamos/params.proto";
 
 option go_package = "github.com/civet148/colamos/x/colamos/types";
 
