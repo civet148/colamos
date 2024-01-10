@@ -11,9 +11,9 @@ import (
 
 	abci "github.com/cometbft/cometbft/abci/types"
 
-	"colamos/x/colamos/client/cli"
-	"colamos/x/colamos/keeper"
-	"colamos/x/colamos/types"
+	"github.com/civet148/colamos/x/colamos/client/cli"
+	"github.com/civet148/colamos/x/colamos/keeper"
+	"github.com/civet148/colamos/x/colamos/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"

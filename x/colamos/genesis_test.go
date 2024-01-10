@@ -3,10 +3,10 @@ package colamos_test
 import (
 	"testing"
 
-	keepertest "colamos/testutil/keeper"
-	"colamos/testutil/nullify"
-	"colamos/x/colamos"
-	"colamos/x/colamos/types"
+	keepertest "github.com/civet148/colamos/testutil/keeper"
+	"github.com/civet148/colamos/testutil/nullify"
+	"github.com/civet148/colamos/x/colamos"
+	"github.com/civet148/colamos/x/colamos/types"
 	"github.com/stretchr/testify/require"
 )
 

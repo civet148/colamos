@@ -3,7 +3,7 @@ package cmd
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"colamos/app"
+	"github.com/civet148/colamos/app"
 )
 
 func initSDKConfig() {

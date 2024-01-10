@@ -3,8 +3,8 @@ package keeper
 import (
 	"testing"
 
-	"colamos/x/colamos/keeper"
-	"colamos/x/colamos/types"
+	"github.com/civet148/colamos/x/colamos/keeper"
+	"github.com/civet148/colamos/x/colamos/types"
 	tmdb "github.com/cometbft/cometbft-db"
 	"github.com/cometbft/cometbft/libs/log"
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"

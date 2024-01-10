@@ -4,9 +4,9 @@ package colamos.colamos;
 import "gogoproto/gogo.proto";
 import "google/api/annotations.proto";
 import "cosmos/base/query/v1beta1/pagination.proto";
-import "colamos/colamos/params.proto";
+import "github.com/civet148/colamos/colamos/params.proto";
 
-option go_package = "colamos/x/colamos/types";
+option go_package = "github.com/civet148/colamos/x/colamos/types";
 
 // Query defines the gRPC querier service.
 service Query {

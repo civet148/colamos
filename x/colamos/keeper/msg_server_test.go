@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	keepertest "colamos/testutil/keeper"
-	"colamos/x/colamos/keeper"
-	"colamos/x/colamos/types"
+	keepertest "github.com/civet148/colamos/testutil/keeper"
+	"github.com/civet148/colamos/x/colamos/keeper"
+	"github.com/civet148/colamos/x/colamos/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 )

@@ -3,9 +3,9 @@ package colamos
 import (
 	"math/rand"
 
-	"colamos/testutil/sample"
-	colamossimulation "colamos/x/colamos/simulation"
-	"colamos/x/colamos/types"
+	"github.com/civet148/colamos/testutil/sample"
+	colamossimulation "github.com/civet148/colamos/x/colamos/simulation"
+	"github.com/civet148/colamos/x/colamos/types"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"

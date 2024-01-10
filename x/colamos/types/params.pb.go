@@ -63,7 +63,7 @@ func init() {
 	proto.RegisterType((*Params)(nil), "colamos.colamos.Params")
 }
 
-func init() { proto.RegisterFile("colamos/colamos/params.proto", fileDescriptor_ecaad80b488de7b1) }
+func init() { proto.RegisterFile("github.com/civet148/colamos/colamos/params.proto", fileDescriptor_ecaad80b488de7b1) }
 
 var fileDescriptor_ecaad80b488de7b1 = []byte{
 	// 125 bytes of a gzipped FileDescriptorProto

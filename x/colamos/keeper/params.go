@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"colamos/x/colamos/types"
+	"github.com/civet148/colamos/x/colamos/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

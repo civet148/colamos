@@ -118,7 +118,7 @@ func init() {
 	proto.RegisterType((*QueryParamsResponse)(nil), "colamos.colamos.QueryParamsResponse")
 }
 
-func init() { proto.RegisterFile("colamos/colamos/query.proto", fileDescriptor_789e11fa6cfc71f3) }
+func init() { proto.RegisterFile("github.com/civet148/colamos/colamos/query.proto", fileDescriptor_789e11fa6cfc71f3) }
 
 var fileDescriptor_789e11fa6cfc71f3 = []byte{
 	// 274 bytes of a gzipped FileDescriptorProto
@@ -221,7 +221,7 @@ var _Query_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "colamos/colamos/query.proto",
+	Metadata: "github.com/civet148/colamos/colamos/query.proto",
 }
 
 func (m *QueryParamsRequest) Marshal() (dAtA []byte, err error) {

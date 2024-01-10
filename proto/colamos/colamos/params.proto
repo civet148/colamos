@@ -3,7 +3,7 @@ package colamos.colamos;
 
 import "gogoproto/gogo.proto";
 
-option go_package = "colamos/x/colamos/types";
+option go_package = "github.com/civet148/colamos/x/colamos/types";
 
 // Params defines the parameters for the module.
 message Params {

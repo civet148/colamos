@@ -3,7 +3,7 @@ package keeper
 import (
 	"context"
 
-	"colamos/x/colamos/types"
+	"github.com/civet148/colamos/x/colamos/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

@@ -13,4 +13,5 @@ type EncodingConfig struct {
 	Marshaler         codec.Codec
 	TxConfig          client.TxConfig
 	Amino             *codec.LegacyAmino
+	Codec             codec.Codec
 }

@@ -1,8 +1,8 @@
 package colamos
 
 import (
-	"colamos/x/colamos/keeper"
-	"colamos/x/colamos/types"
+	"github.com/civet148/colamos/x/colamos/keeper"
+	"github.com/civet148/colamos/x/colamos/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

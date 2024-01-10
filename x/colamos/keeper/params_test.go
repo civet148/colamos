@@ -3,8 +3,8 @@ package keeper_test
 import (
 	"testing"
 
-	testkeeper "colamos/testutil/keeper"
-	"colamos/x/colamos/types"
+	testkeeper "github.com/civet148/colamos/testutil/keeper"
+	"github.com/civet148/colamos/x/colamos/types"
 	"github.com/stretchr/testify/require"
 )
 
